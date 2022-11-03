@@ -1,0 +1,1 @@
+print("Another weird string")
