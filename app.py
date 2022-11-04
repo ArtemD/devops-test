@@ -3,7 +3,6 @@ from fastapi import FastAPI
 #ja vielä toinki rivi että rivit muuttuu
 app = FastAPI()
 
-
 @app.get('/api')
 async def api():
     return {'message': 'I am API response, hello...'}
@@ -12,4 +11,6 @@ async def api():
 async def index():
         return {'message': 'Greetings from FastAPI'}
 
-        # Tässä jotain muutos kommenttia
+@app.get('/new')
+async def new():
+        return {'message': 'new stuff'}
