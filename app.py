@@ -1,6 +1,5 @@
 from fastapi import FastAPI
-#nopea muutos tänne väliin
-#ja vielä toinki rivi että rivit muuttuu
+#uuden branchin vaihdettu kommentti
 app = FastAPI()
 
 
