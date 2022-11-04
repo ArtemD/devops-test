@@ -21,3 +21,9 @@ uvicorn app:app --reload
 ```shell
 uvicorn app:app --host 0.0.0.0 --port 80
 ```
+
+# Deployment
+
+Deployment is handled by Fly.io and GitHub Actions
+
+# Testing

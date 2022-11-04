@@ -1,13 +1,16 @@
 from fastapi import FastAPI
-
+#nopea muutos tänne väliin
+#ja vielä toinki rivi että rivit muuttuu
 app = FastAPI()
 
 @app.get('/api')
 async def api():
-    return {'message': 'I am API response, hello!'}
+    return {'message': 'I am API response, hello...'}
 
 @app.get("/")
 async def index():
-        return {'message': 'Hello from FastAPI'}
+    return {'message': 'Greetings from FastAPI'}
 
-# peikko
+@app.get('/new')
+async def new():
+    return {'message': 'new stuff'}
