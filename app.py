@@ -11,3 +11,5 @@ async def api():
 @app.get("/")
 async def index():
     return {'message': 'Hello from FastAPI'}
+
+# Tässä jotain muutos kommenttia
