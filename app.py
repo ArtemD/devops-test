@@ -1,3 +1,4 @@
+//kommentti
 from fastapi import FastAPI
 
 app = FastAPI()
