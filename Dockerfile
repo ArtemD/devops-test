@@ -1,4 +1,4 @@
-# Simple comment to test git :)
+# Tuleeko konfliktia?
 FROM python:3.8
 WORKDIR /app
 COPY . /app/
