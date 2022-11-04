@@ -9,8 +9,8 @@ async def api():
 
 @app.get("/")
 async def index():
-        return {'message': 'Greetings from FastAPI'}
+    return {'message': 'Greetings from FastAPI'}
 
 @app.get('/new')
 async def new():
-        return {'message': 'new stuff'}
+    return {'message': 'new stuff'}
