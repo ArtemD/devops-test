@@ -1,4 +1,4 @@
-# Simple comment to test git :)
+# Another text
 FROM python:3.8
 WORKDIR /app
 COPY . /app/
