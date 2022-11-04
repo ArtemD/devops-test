@@ -1,8 +1,8 @@
-#git kommentti
+#git kommenttia
 from fastapi import FastAPI
 
 app = FastAPI()
-
+#lisää kommenttia
 
 @app.get('/api')
 async def api():
